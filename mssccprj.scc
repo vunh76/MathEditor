@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[MathEdit.dsp]
+SCC_Aux_Path = "E:\VC\VSSData\MathEditor"
+SCC_Project_Name = "$/MathEdit", BAAAAAAA
+
+[MathEdit.dsw]
+SCC_Aux_Path = "E:\VC\VSSData\MathEditor"
+SCC_Project_Name = "$/MEditorLib", LBAAAAAA

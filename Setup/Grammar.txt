@@ -1,0 +1,15 @@
+Operator: 		+, -, * , /
+Parentheses: 		( )
+Subscript: 		param1_param2
+Supscript: 		param^exponent
+Radical sign: 		sqrt(param1[,param2])
+Sum sign: 		sum(param1[,param2][,param3])
+Product sign:		prod(param1[,param2][,param3])
+Union sign: 		uni(param1[,param2][,param3])
+Intersection sign: 	insec(param1[,param2][,param3])
+Integral sign: 		int(param1[,param2][,param3])
+Double integral sign: 	int2(param1[,param2][,param3])
+Triple integral sign: 	int3(param1[,param2][,param3])
+Examples: 
+	(-b+sqrt(b^2-4ac))/2a
+	sum(x_i, 1, n)

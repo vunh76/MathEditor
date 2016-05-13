@@ -1,0 +1,76 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MEditorLib - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/MEditorLib.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\VC\MathEdit\MEditorLib\CmdDelete.cpp"
+"E:\VC\MathEdit\MEditorLib\CmdDelSel.cpp"
+"E:\VC\MathEdit\MEditorLib\CmdInsert.cpp"
+"E:\VC\MathEdit\MEditorLib\CmdTyping.cpp"
+"E:\VC\MathEdit\MEditorLib\EditorCtrl.cpp"
+"E:\VC\MathEdit\MEditorLib\Parser.cpp"
+"E:\VC\MathEdit\MEditorLib\ParserMathText.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B1.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B2.tmp" with contents
+[
+/nologo /out:"Debug\MEditorLib.lib" 
+.\Debug\Box.obj
+.\Debug\CmdDelete.obj
+.\Debug\CmdDelSel.obj
+.\Debug\CmdInsert.obj
+.\Debug\CmdTyping.obj
+.\Debug\Command.obj
+.\Debug\CompositeBox.obj
+.\Debug\Cursor.obj
+.\Debug\EditorCtrl.obj
+.\Debug\GreekChar.obj
+.\Debug\MacroCommand.obj
+.\Debug\MBrace.obj
+.\Debug\MEntity.obj
+.\Debug\MFrac.obj
+.\Debug\MI.obj
+.\Debug\MN.obj
+.\Debug\MO.obj
+.\Debug\MRoot.obj
+.\Debug\MRow.obj
+.\Debug\MSubSup.obj
+.\Debug\MSymbol.obj
+.\Debug\MTable.obj
+.\Debug\MUnderOver.obj
+.\Debug\Over.obj
+.\Debug\Parser.obj
+.\Debug\ParserException.obj
+.\Debug\ParserMathText.obj
+.\Debug\SpecialChar.obj
+.\Debug\StdAfx.obj
+.\Debug\Text.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP2B2.tmp"
+<h3>Output Window</h3>
+Compiling...
+CmdDelete.cpp
+Generating Code...
+Compiling...
+CmdDelSel.cpp
+CmdInsert.cpp
+CmdTyping.cpp
+EditorCtrl.cpp
+Parser.cpp
+ParserMathText.cpp
+Generating Code...
+Creating library...
+
+
+
+<h3>Results</h3>
+MEditorLib.lib - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

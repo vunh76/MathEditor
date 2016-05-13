@@ -1,0 +1,128 @@
+alpha	0	Symbol	0x61	alpha	0	0
+beta	0	Symbol	0x62	beta	0	0
+chi	0	Symbol	0x63	chi	0	0
+delta	0	Symbol	0x64	delta	0	0
+epsi	0	Symbol	0x65	epsi	0	0
+phi	0	Symbol	0x66	phi	0	0
+phiv	0	Symbol	0x67	phiv	0	0
+gamma	0	Symbol	0x68	gamma	0	0
+eta	0	Symbol	0x69	eta	0	0
+iota	0	Symbol	0x6A	iota	0	0
+kappa	0	Symbol	0x6B	kappa	0	0
+lambda	0	Symbol	0x6C	lambda	0	0
+mu	0	Symbol	0x6D	mu	0	0
+nu	0	Symbol	0x6E	nu	0	0
+omicron	0	Symbol	0x6F	#959	0	0
+pi	0	Symbol	0x70	pi	0	0
+piv	0	Symbol	0x76	piv	0	0
+theta	0	Symbol	0x71	theta	0	0
+thetav	0	Symbol	0x4A	thetav	0	0
+rho	0	Symbol	0x72	rho	0	0
+sigma	0	Symbol	0x73	sigma	0	0
+sigmav	0	Symbol	0x56	sigmav	0	0
+tau	0	Symbol	0x74	tau	0	0
+upsi	0	Symbol	0x75	upsi	0	0
+omega	0	Symbol	0x77	omega	0	0
+xi	0	Symbol	0x78	xi	0	0
+psi	0	Symbol	0x79	psi	0	0
+zeta	0	Symbol	0x7A	zeta	0	0
+Alpha	0	Symbol	0x41	#913	0	0
+Beta	0	Symbol	0x42	#914	0	0
+Chi	0	Symbol	0x43	#935	0	0
+Delta	0	Symbol	0x44	Delta	0	0
+Epsi	0	Symbol	0x45	#917	0	0
+Phi	0	Symbol	0x46	Phi	0	0
+Gamma	0	Symbol	0x47	Gamma	0	0
+Eta	0	Symbol	0x48	#919	0	0
+Iota	0	Symbol	0x49	#921	0	0
+Kappa	0	Symbol	0x4B	#922	0	0
+Lamda	0	Symbol	0x4C	Lamda	0	0
+Mu	0	Symbol	0x4D	#924	0	0
+Nu	0	Symbol	0x4E	#925	0	0
+Omicron	0	Symbol	0x4F	#927	0	0
+Pi	0	Symbol	0x50	Pi	0	0
+Theta	0	Symbol	0x51	Theta	0	0
+Rho	0	Symbol	0x52	#929	0	0
+Sigma	0	Symbol	0x53	Sigma	0	0
+Tau	0	Symbol	0x54	#932	0	0
+Upsilon	0	Symbol	0xA1	Upsi	0	0
+Omega	0	Symbol	0x57	Omega	0	0
+Xi	0	Symbol	0x58	Xi	0	0
+Psi	0	Symbol	0x59	Psi	0	0
+Zeta	0	Symbol	0x5A	#918	0	0
+plusmn	1	Lucida Bright Math Symbol	0x29	plusmn	0	0
+mnplus	1	Lucida Bright Math Symbol	0x2A	mnplus	0	0
+divide	1	Lucida Bright Math Symbol	0x27	divide	0	0
+sim	1	Lucida Bright Math Symbol	0x3B	sim	0	0
+ap	1	Lucida Bright Math Symbol	0x3C	ap	0	0
+sime	1	Lucida Bright Math Symbol	0xBE	sime	0	0
+cong	1	Lucida Bright Math Symbol	0xBF	cong	0	0
+equiv	1	Lucida Bright Math Symbol	0x34	equiv	0	0
+prop	1	Lucida Bright Math Symbol	0x52	prop	0	0
+infin	0	Lucida Bright Math Symbol	0x54	infin	0	0
+ang	1	Lucida Bright Math Symbol	0xAD	ang	0	0
+angmsd	1	Lucida Bright Math Symbol	0xAE	angmsd	0	0
+angsph	1	Lucida Bright Math Symbol	0xAF	angsph	0	0
+bottom	1	Lucida Bright Math Symbol	0x62	bottom	0	0
+par	1	Lucida Bright Math Symbol	0x8F	par	0	0
+xutri	1	Lucida Bright Math Symbol	0x57	xutri	0	0
+part	1	Symbol	0xB6	part	0x00	0
+isin	1	Lucida Bright Math Symbol	0x55	isin	0	0
+notin	1	Lucida Bright Math Symbol	0x55	notin	0	1
+cup	1	Lucida Bright Math Symbol	0x7E	cup	0	0
+cap	1	Lucida Bright Math Symbol	0x80	cap	0	0
+sub	1	Lucida Bright Math Symbol	0x3D	sub	0	0
+sup	1	Lucida Bright Math Symbol	0x3E	sup	0	0
+subE	1	Lucida Bright Math Symbol	0x35	subE	0	0
+supE	1	Lucida Bright Math Symbol	0x36	supE	0	0
+nsub	1	Lucida Bright Math Symbol	0x3D	nsub	0	1
+emptyv	1	Lucida Bright Math Symbol	0x5E	emptyv	0	0
+exist	1	Lucida Bright Math Symbol	0x5C	exist	0	0
+forall	1	Lucida Bright Math Symbol	0x5B	forall	0	0
+and	1	Lucida Bright Math Symbol	0x82	and	0	0
+or	1	Lucida Bright Math Symbol	0x83	or	0	0
+harr	1	Lucida Bright Math Symbol	0x47	harr	0	0
+rarr	1	Lucida Bright Math Symbol	0x44	rarr	0	0
+larr	1	Lucida Bright Math Symbol	0x43	larr	0	0
+varr	1	Lucida Bright Math Symbol	0x90	varr	0	0
+uarr	1	Lucida Bright Math Symbol	0x45	uarr	0	0
+darr	1	Lucida Bright Math Symbol	0x46	darr	0	0
+hArr	1	Lucida Bright Math Symbol	0x4F	hArr	0	0
+rArr	1	Lucida Bright Math Symbol	0x4C	rArr	0	0
+lArr	1	Lucida Bright Math Symbol	0x4B	lArr	0	0
+vArr	1	Lucida Bright Math Symbol	0x91	vArr	0	0
+uArr	1	Lucida Bright Math Symbol	0x4D	uArr	0	0
+dArr	1	Lucida Bright Math Symbol	0x4E	dArr	0	0
+nearr	1	Lucida Bright Math Symbol	0x00	nearr	0	0
+swarr	1	Lucida Bright Math Symbol	0x48	swarr	0	0
+searr	1	Lucida Bright Math Symbol	0x51	searr	0	0
+nwarr	1	Lucida Bright Math Symbol	0x00	nwarr	0	0
+searr	1	Lucida Bright Math Symbol	0x49	searr	0	0
+nwarr	1	Lucida Bright Math Symbol	0x50	nwarr	0	0
+vangrt	1	Lucida Bright Math Symbol	0xF8	vangrt	0	0
+lrtri	1	Lucida Bright Math Symbol	0xF9	lrtri	0	0
+esim	1	Lucida Bright Math Symbol	0xBD	esim	0	0
+wreath	1	Lucida Bright Math Symbol	0x93	wreath	0	0
+le	1	Lucida Bright Math Symbol	0x37	le	0	0
+ge	1	Lucida Bright Math Symbol	0x38	ge	0	0
+ne	1	Lucida Bright Math Symbol	0x22	ne	0	1
+there4	1	Lucida Bright Math Symbol	0xB2	there4	0	0
+becaus	1	Lucida Bright Math Symbol	0xB3	becaus	0	0
+ratio	1	Lucida Bright Math Symbol	0xB4	ratio	0	0
+Colon	1	Lucida Bright Math Symbol	0xB5	Colon	0	0
+minusd	1	Lucida Bright Math Symbol	0xB6	minusd	0	0
+mDot	1	Lucida Bright Math Symbol	0xB7	#8761	0	0
+mDDot	1	Lucida Bright Math Symbol	0xB8	mDDot	0	0
+homtht	1	Lucida Bright Math Symbol	0xB9	homtht	0	0
+esdot	1	Lucida Bright Math Symbol	0xC6	esdot	0	0
+eDot	1	Lucida Bright Math Symbol	0xC7	eDot	0	0
+efDot	1	Lucida Bright Math Symbol	0xC8	efDot	0	0
+erDot	1	Lucida Bright Math Symbol	0xC9	erDot	0	0
+not	1	Lucida Bright Math Symbol	0x5D	not	0	0
+emptyv	0	Lucida Bright Math Symbol	0x5E	emptyv	0	0
+oplus	1	Lucida Bright Math Symbol	0x2B	oplus	0	0
+ominus	1	Lucida Bright Math Symbol	0x2C	ominus	0	0
+odot	1	Lucida Bright Math Symbol	0x2F	odot	0	0
+real	0	Lucida Bright Math Symbol	0x5F	real	0	0
+image	0	Lucida Bright Math Symbol	0x60	image	0	0
+aleph	0	Lucida Bright Math Symbol	0x63	aleph	0	0

@@ -1,0 +1,157 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: MEditorLib - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MEditorLib.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\VC\MathEdit\MEditorLib\Box.cpp"
+"E:\VC\MathEdit\MEditorLib\BoxHolder.cpp"
+"E:\VC\MathEdit\MEditorLib\CmdDelete.cpp"
+"E:\VC\MathEdit\MEditorLib\CmdDelSel.cpp"
+"E:\VC\MathEdit\MEditorLib\CmdInsert.cpp"
+"E:\VC\MathEdit\MEditorLib\CmdTyping.cpp"
+"E:\VC\MathEdit\MEditorLib\CompositeBox.cpp"
+"E:\VC\MathEdit\MEditorLib\Cursor.cpp"
+"E:\VC\MathEdit\MEditorLib\EditorCtrl.cpp"
+"E:\VC\MathEdit\MEditorLib\Factory.cpp"
+"E:\VC\MathEdit\MEditorLib\MBrace.cpp"
+"E:\VC\MathEdit\MEditorLib\MEntity.cpp"
+"E:\VC\MathEdit\MEditorLib\MFrac.cpp"
+"E:\VC\MathEdit\MEditorLib\MI.cpp"
+"E:\VC\MathEdit\MEditorLib\MN.cpp"
+"E:\VC\MathEdit\MEditorLib\MO.cpp"
+"E:\VC\MathEdit\MEditorLib\MRoot.cpp"
+"E:\VC\MathEdit\MEditorLib\MRow.cpp"
+"E:\VC\MathEdit\MEditorLib\MSubSup.cpp"
+"E:\VC\MathEdit\MEditorLib\MSymbol.cpp"
+"E:\VC\MathEdit\MEditorLib\MTable.cpp"
+"E:\VC\MathEdit\MEditorLib\MUnderOver.cpp"
+"E:\VC\MathEdit\MEditorLib\Over.cpp"
+"E:\VC\MathEdit\MEditorLib\Parser.cpp"
+"E:\VC\MathEdit\MEditorLib\ParserMathText.cpp"
+"E:\VC\MathEdit\MEditorLib\Text.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4C.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4D.tmp" with contents
+[
+/nologo /out:"Release\MEditorLib.lib" 
+.\Release\Box.obj
+.\Release\BoxHolder.obj
+.\Release\CmdDelete.obj
+.\Release\CmdDelSel.obj
+.\Release\CmdInsert.obj
+.\Release\CmdTyping.obj
+.\Release\Command.obj
+.\Release\CompositeBox.obj
+.\Release\Cursor.obj
+.\Release\EditorCtrl.obj
+.\Release\Factory.obj
+.\Release\MacroCommand.obj
+.\Release\MBrace.obj
+.\Release\MEntity.obj
+.\Release\MFrac.obj
+.\Release\MI.obj
+.\Release\MN.obj
+.\Release\MO.obj
+.\Release\MRoot.obj
+.\Release\MRow.obj
+.\Release\MSubSup.obj
+.\Release\MSymbol.obj
+.\Release\MTable.obj
+.\Release\MUnderOver.obj
+.\Release\Over.obj
+.\Release\Parser.obj
+.\Release\ParserException.obj
+.\Release\ParserMathText.obj
+.\Release\StdAfx.obj
+.\Release\Text.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4D.tmp"
+<h3>Output Window</h3>
+Compiling...
+Box.cpp
+BoxHolder.cpp
+CmdDelete.cpp
+CmdDelSel.cpp
+CmdInsert.cpp
+CmdTyping.cpp
+CompositeBox.cpp
+Cursor.cpp
+EditorCtrl.cpp
+E:\VC\MathEdit\MEditorLib\EditorCtrl.cpp(2024) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+Factory.cpp
+MBrace.cpp
+MEntity.cpp
+MFrac.cpp
+MI.cpp
+MN.cpp
+MO.cpp
+MRoot.cpp
+E:\VC\MathEdit\MEditorLib\MRoot.cpp(100) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+MRow.cpp
+MSubSup.cpp
+MSymbol.cpp
+Generating Code...
+Compiling...
+MTable.cpp
+E:\VC\MathEdit\MEditorLib\MTable.cpp(73) : warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+MUnderOver.cpp
+Over.cpp
+Parser.cpp
+ParserMathText.cpp
+Text.cpp
+Generating Code...
+Creating library...
+<h3>
+--------------------Configuration: MathEdit - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Release/MathEdit.res" /d "NDEBUG" /d "_AFXDLL" "E:\VC\MathEdit\MathEdit.rc"" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/MathEdit.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\VC\MathEdit\EditorDlg.cpp"
+"E:\VC\MathEdit\MathEdit.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4E.tmp" 
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/MathEdit.pdb" /machine:I386 /out:"Release/MathEdit.exe" 
+.\Release\About.obj
+.\Release\EditorDlg.obj
+.\Release\MathEdit.obj
+.\Release\StdAfx.obj
+.\Release\ToolBarBtn.obj
+.\Release\ToolBarBtnCtrl.obj
+.\Release\ToolBarDlg.obj
+.\Release\MathEdit.res
+.\MEditorLib\Release\MEditorLib.lib
+]
+Creating command line "link.exe @C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP4F.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+EditorDlg.cpp
+E:\VC\MathEdit\EditorDlg.cpp(167) : warning C4018: '<' : signed/unsigned mismatch
+E:\VC\MathEdit\EditorDlg.cpp(174) : warning C4018: '<' : signed/unsigned mismatch
+E:\VC\MathEdit\EditorDlg.cpp(182) : warning C4018: '<' : signed/unsigned mismatch
+E:\VC\MathEdit\EditorDlg.cpp(281) : warning C4018: '<' : signed/unsigned mismatch
+E:\VC\MathEdit\EditorDlg.cpp(307) : warning C4018: '<' : signed/unsigned mismatch
+E:\VC\MathEdit\EditorDlg.cpp(311) : warning C4018: '<' : signed/unsigned mismatch
+E:\VC\MathEdit\EditorDlg.cpp(315) : warning C4018: '<' : signed/unsigned mismatch
+MathEdit.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+MathEdit.exe - 0 error(s), 10 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,157 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_ARROWS              BITMAP  DISCARDABLE     "res\\arrows.bmp"
+IDB_BRACE               BITMAP  DISCARDABLE     "res\\brace.bmp"
+IDB_COREDATA            BITMAP  DISCARDABLE     "res\\coredata.bmp"
+IDB_DERIVATIVE          BITMAP  DISCARDABLE     "res\\derivative.bmp"
+IDB_EQUATION            BITMAP  DISCARDABLE     "res\\equation.bmp"
+IDB_FUNCTION            BITMAP  DISCARDABLE     "res\\function.bmp"
+IDB_INTEGRAL            BITMAP  DISCARDABLE     "res\\integral.bmp"
+IDB_LOWER_GREEK         BITMAP  DISCARDABLE     "res\\lower_greek.bmp"
+IDB_MATRIX              BITMAP  DISCARDABLE     "res\\matrix.bmp"
+IDB_PBYQ                BITMAP  DISCARDABLE     "res\\pbyq.bmp"
+IDB_PROD                BITMAP  DISCARDABLE     "res\\prod.bmp"
+IDB_SUM                 BITMAP  DISCARDABLE     "res\\sum.bmp"
+IDB_UPPER_GREEK         BITMAP  DISCARDABLE     "res\\upper_greek.bmp"
+IDB_VECTOR              BITMAP  DISCARDABLE     "res\\vector.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_EDITOR_DLG DIALOG DISCARDABLE  0, 0, 293, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Math Equation Editor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "=",IDC_EQUATION,13,4,38,13
+    PUSHBUTTON      "x/y",IDC_PBYQ,51,4,38,13
+    PUSHBUTTON      "sin",IDC_FUNCTION,89,4,38,13
+    PUSHBUTTON      "->",IDC_ARROWS,127,4,38,13
+    PUSHBUTTON      "core",IDC_COREDATA,165,4,38,13
+    PUSHBUTTON      "int",IDC_INTEGRAL,203,4,38,13
+    PUSHBUTTON      "matrix",IDC_MATRIX,241,4,38,13
+    PUSHBUTTON      "vec",IDC_VECTOR,13,20,38,13
+    PUSHBUTTON      "()",IDC_BRACE,51,20,38,13
+    PUSHBUTTON      "d/dt",IDC_DERIVATIVE,89,20,38,13
+    PUSHBUTTON      "ALPHA",IDC_UPPER_GREEK,127,20,38,13
+    PUSHBUTTON      "alpha",IDC_LOWER_GREEK,165,20,38,13
+    PUSHBUTTON      "sum",IDC_SUM,203,20,38,13
+    PUSHBUTTON      "prod",IDC_PROD,241,20,38,13
+    CONTROL         "Custom1",IDC_FORMULAR,"CEditor",WS_TABSTOP,7,36,279,174
+END
+
+IDD_TOOLBAR_POPUP DIALOG DISCARDABLE  0, 0, 41, 36
+STYLE WS_POPUP | WS_CLIPSIBLINGS | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Custom1",IDC_CHARSETCTRL,"CToolBarBtnCtrl",WS_TABSTOP,0,
+                    0,41,36
+END
+
+IDD_MATRIX_PROPERTY DIALOG DISCARDABLE  0, 0, 186, 95
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Matrix Properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,129,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,24,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_EDITOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 286
+        TOPMARGIN, 4
+        BOTTOMMARGIN, 203
+        HORZGUIDE, 17
+        HORZGUIDE, 36
+    END
+
+    IDD_MATRIX_PROPERTY, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
